@@ -1,0 +1,98 @@
+.header {
+  width: 100%;
+  padding: 20px 0;
+  background: transparent;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  flex: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  font-size: 20px;
+  color: #9ca3af;
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #9ca3af;
+  letter-spacing: -0.02em;
+}
+
+.header-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.time {
+  font-size: 14px;
+  color: #9ca3af;
+  font-weight: 400;
+}
+
+.header-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.explore-btn {
+  background: transparent;
+  border: none;
+  color: #9ca3af;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.explore-btn:hover {
+  color: #6b7280;
+}
+
+.sign-in-btn {
+  background: transparent;
+  border: none;
+  color: #9ca3af;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.sign-in-btn:hover {
+  color: #6b7280;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding: 0 20px;
+  }
+  
+  .header-center {
+    display: none;
+  }
+  
+  .header-right {
+    gap: 15px;
+  }
+} 
